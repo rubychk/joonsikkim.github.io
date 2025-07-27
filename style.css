@@ -4,24 +4,21 @@ body {
     font-family: 'Segoe UI', sans-serif;
     background: #fdfdfd;
     color: #222;
-    font-size: 20px;
-    padding: 0 2rem;
+    font-size: 14px;
 }
 header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 2rem 2rem;
+    padding: 2rem;
     border-bottom: 1px solid #ccc;
-    font-size: 1.5rem;
-    font-weight: bold;
 }
 nav a {
     margin-left: 1rem;
     text-decoration: none;
     color: #000;
     font-weight: bold;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
 }
 .container {
     display: flex;
@@ -35,7 +32,7 @@ nav a {
     flex: 1;
 }
 .photo img {
-    max-width: 80%;
+    max-width: 100%;
     height: auto;
     border-radius: 12px;
 }
@@ -47,8 +44,4 @@ h2 {
     margin-top: 2rem;
     font-size: 1.5rem;
     color: #555;
-}
-a {
-    color: #5a2aa5;
-    text-decoration: none;
 }
