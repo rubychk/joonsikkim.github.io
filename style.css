@@ -1,3 +1,4 @@
+/* 全域樣式 */
 body {
     margin: 0;
     font-family: 'Segoe UI', sans-serif;
@@ -40,6 +41,8 @@ nav a {
     max-width: 100%;
     height: auto;
     border-radius: 12px;
+    display: block;          /* ✅ 圖片置中 */
+    margin: 0 auto;
 }
 
 h1 {
@@ -55,6 +58,10 @@ h2 {
 
 /* ✅ 手機版樣式 */
 @media (max-width: 768px) {
+    body {
+        font-size: 20px; /* ✅ 手機上稍微小一點字體 */
+    }
+
     header {
         flex-direction: column;
         align-items: flex-start;
