@@ -1,3 +1,4 @@
+
 body {
     margin: 0;
     font-family: 'Segoe UI', sans-serif;
@@ -11,18 +12,17 @@ header {
     align-items: center;
     padding: 2rem;
     border-bottom: 1px solid #ccc;
-    position: relative;
+}
+.logo {
+    font-weight: normal;
 }
 .hamburger {
-    font-size: 2rem;
     display: none;
+    font-size: 2rem;
     cursor: pointer;
 }
-nav {
-    display: flex;
-    gap: 1rem;
-}
 nav a {
+    margin-left: 1rem;
     text-decoration: none;
     color: #000;
     font-weight: bold;
@@ -38,6 +38,7 @@ nav a {
 }
 .photo {
     flex: 1;
+    text-align: center;
 }
 .photo img {
     max-width: 100%;
@@ -53,35 +54,26 @@ h2 {
     font-size: 1.5rem;
     color: #555;
 }
+.hidden {
+    display: none;
+}
 
-/* Mobile styles */
+/* 手機樣式 */
 @media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
     .hamburger {
         display: block;
     }
     nav {
-        display: none;
-        flex-direction: column;
-        background: #222;
-        color: white;
-        position: absolute;
-        top: 100%;
-        left: 0;
         width: 100%;
-        padding: 1rem;
+        margin-top: 1rem;
     }
     nav a {
-        color: white;
-        margin: 1rem 0;
-        font-size: 1.2rem;
-    }
-    nav .close {
-        text-align: right;
-        font-size: 1.5rem;
-        cursor: pointer;
-    }
-    nav.show {
-        display: flex;
+        display: block;
+        margin: 0.5rem 0;
     }
     .container {
         flex-direction: column;
@@ -89,9 +81,10 @@ h2 {
     }
     .text {
         padding-right: 0;
+        order: 1;
     }
     .photo {
-        text-align: center;
+        order: 2;
         margin-top: 1.5rem;
     }
     .photo img {

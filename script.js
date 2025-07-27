@@ -1,4 +1,5 @@
+
 function toggleMenu() {
-    const nav = document.getElementById('mobileMenu');
-    nav.classList.toggle('show');
+    const menu = document.getElementById("mobileMenu");
+    menu.classList.toggle("hidden");
 }
