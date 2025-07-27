@@ -2,6 +2,7 @@
 body {
     margin: 0;
     font-family: 'Segoe UI', sans-serif;
+    font-size: 14px;
     background: #fdfdfd;
     color: #222;
 }
@@ -13,12 +14,14 @@ header {
     border-bottom: 1px solid #ccc;
 }
 nav a {
+    font-size: 16px;
     margin-left: 1rem;
     text-decoration: none;
     color: #000;
     font-weight: bold;
 }
 .container {
+    margin-left: 2rem;
     display: flex;
     padding: 2rem;
 }
@@ -30,6 +33,7 @@ nav a {
     flex: 1;
 }
 .photo img {
+    max-width: 90%;
     max-width: 100%;
     height: auto;
     border-radius: 12px;
@@ -42,14 +46,4 @@ h2 {
     margin-top: 2rem;
     font-size: 1.2rem;
     color: #555;
-}
-
-body, p {
-    font-size: 14px;
-}
-header div, nav a {
-    font-size: 16px;
-}
-.photo img {
-    max-width: 80%;
 }
