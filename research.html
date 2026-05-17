@@ -1,40 +1,102 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <title>Research</title>
-    <link rel="icon" type="image/png" href="favicon.png">
-    <link rel="stylesheet" href="style.css"/>
-    <script defer src="script.js"></script>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Research — Joonsik Kim</title>
+<link rel="icon" type="image/png" href="favicon.png" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,500;0,8..60,600;0,8..60,700;1,8..60,400;1,8..60,500&family=Source+Sans+3:wght@400;500;600;700&family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=IBM+Plex+Serif:wght@400;500;600&family=IBM+Plex+Sans:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css" />
+<script src="theme.js"></script>
+
+<script src="https://unpkg.com/react@18.3.1/umd/react.development.js" integrity="sha384-hD6/rw4ppMLGNu3tX5cjIb+uRZ7UkRJ6BPkLpg4hAu/6onKUg4lLsHAs9EBPT82L" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/react-dom@18.3.1/umd/react-dom.development.js" integrity="sha384-u6aeetuaXnQ38mYT8rp6sbXaQe3NL9t+IBXmnYxwkUI2Hw4bsp2Wvmx4yRQF1uAm" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/@babel/standalone@7.29.0/babel.min.js" integrity="sha384-m08KidiNqLdpJqLq95G/LEi8Qvjl/xUYll3QILypMoQ65QorJ9Lvtp2RXYGBFj1y" crossorigin="anonymous"></script>
 </head>
 <body>
-<header>
-    <div class="logo">Joonsik(Joon) Kim</div>
-    <div class="menu-toggle" id="menu-toggle">&#9776;</div>
-    <nav id="navbar">
-        <a href="index.html">Home</a>
-        <a href="research.html">Research</a>
-        <a href="cv.html">CV</a>
-        <a href="contact.html">Contact</a>
+
+<header class="site-header" data-screen-label="Research — Header">
+  <div class="shell">
+    <a class="brand" href="index.html">Joonsik Kim<span class="sub">Sociology · UofT</span></a>
+    <button class="menu-toggle" id="menu-toggle" aria-label="Menu">≡</button>
+    <nav class="primary" id="navbar">
+      <a href="index.html">Home</a>
+      <a href="research.html">Research</a>
+      <a href="cv.html">CV</a>
+      <a href="contact.html">Contact</a>
     </nav>
+  </div>
 </header>
-<div class="container">
-    <div class="text">
-        <h1>Research</h1>
-        <h2>Publication</h2>
-        <p>Kim, Joonsik and Sida Liu. 2025. <i>About the Patient Named Taiwan: The Rise of Doctors in Taiwanese Party Politics.</i> Journal of Contemporary Asia. pp. 1–21. 
-        <a href="https://doi.org/10.1080/00472336.2025.2488904">Link</a></p>
 
-        <h2>Dissertation Research</h2>
-        <p><i>Earmarking People’s Money: The (Non-)Financialization of National Pensions in the US, Canada, and South Korea.</i></p>
+<main class="shell" data-screen-label="Research">
+  <section class="page-head">
+    <div class="eyebrow"><span class="dot"></span>Research</div>
+  </section>
 
-        <h2>Working Projects</h2>
-        <p>Kim, Joonsik. Constraining Financialization: Earmarking Foreign Reserves against Riskier Investment. R&R at peer-reviewed journal. <br>
-        • Early Career Workshop Award, Society for the Advancement of Socio-Economics (SASE)</p>
-
-        <p>Kim, Joonsik. The Weight of Credit: Politics of Savings Mobilization in Taiwan and South Korea. Manuscript available.</p>
+  <section class="prose">
+    <h2>Dissertation</h2>
+    <div class="entries">
+      <article class="entry">
+        <div class="role">Dissertation · In Progress</div>
+        <h3 class="title" style="font-family: &quot;Times New Roman&quot;">Earmarking People's Money: The (Non-)Financialization of National Pensions in the US, Canada, and South Korea</h3>
+        <div class="meta">
+          <span class="authors">Joonsik Kim</span>
+          <span class="sep">·</span>
+          <span class="venue">University of Toronto</span>
+        </div>
+        <p class="note">Examines how business, labor, and the state contested principles of pension fund management in the late 1990s, producing three distinct investment patterns that persist today.</p>
+      </article>
     </div>
-</div>
+
+    <h2>Publication</h2>
+    <div class="entries">
+      <article class="entry">
+        <div class="role">Peer-reviewed article · 2025</div>
+        <h3 class="title" style="font-family: &quot;Times New Roman&quot;">About the Patient Named Taiwan: The Rise of Doctors in Taiwanese Party Politics</h3>
+        <div class="meta">
+          <span class="authors">Kim, Joonsik &amp; Sida Liu</span>
+          <span class="sep">·</span>
+          <span class="venue">Journal of Contemporary Asia</span>
+        </div>
+        <div class="links">
+          <a href="https://doi.org/10.1080/00472336.2025.2488904" target="_blank" rel="noopener">DOI ↗</a>
+        </div>
+      </article>
+    </div>
+
+    <h2>Working Projects</h2>
+    <div class="entries">
+      <article class="entry">
+        <div class="role">R&amp;R · Peer-reviewed journal</div>
+        <h3 class="title" style="font-family: &quot;Times New Roman&quot;">Constraining Financialization: Earmarking Foreign Reserves against Riskier Investment</h3>
+        <div class="meta">
+          <span class="authors">Joonsik Kim</span>
+        </div>
+        <p class="note">Early Career Workshop Award — Society for the Advancement of Socio-Economics (SASE)</p>
+      </article>
+
+      <article class="entry">
+        <div class="role">Under review</div>
+        <h3 class="title" style="font-family: &quot;Times New Roman&quot;">The Weight of Credit: Politics of Savings Mobilization in Taiwan and South Korea</h3>
+        <div class="meta">
+          <span class="authors">Joonsik Kim</span>
+        </div>
+      </article>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="shell">
+    <div>© Joonsik Kim, 2026</div>
+    <div>Last updated · July 2025 <span class="credit">· Designed by R.K</span></div>
+  </div>
+</footer>
+
+<div id="tweaks-root"></div>
+<script type="text/babel" src="tweaks-panel.jsx"></script>
+<script type="text/babel" src="tweaks-app.jsx"></script>
 </body>
 </html>
