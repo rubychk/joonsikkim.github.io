@@ -343,14 +343,6 @@ nav.primary a[aria-current="page"] { color: var(--ink); }
   color: var(--muted);
   margin-bottom: 1rem;
 }
-.eyebrow .dot {
-  display: inline-block;
-  width: 6px; height: 6px;
-  border-radius: 50%;
-  background: var(--accent);
-  margin: 0 0.5em 0.1em 0;
-  vertical-align: middle;
-}
 h1.display {
   font-family: var(--font-serif);
   font-size: clamp(2.2rem, 4.6vw, 3rem);
@@ -410,13 +402,6 @@ h1.display {
   color: var(--ink);
   line-height: 1.1;
   margin-bottom: 0;
-}
-.page-head .eyebrow .dot {
-  display: inline-block;
-  width: 12px;
-  height: 12px;
-  margin: 0 0.45em 0 0;
-  vertical-align: 0.28em;
 }
 .page-head h1 {
   font-size: clamp(2.2rem, 4.6vw, 3rem);
