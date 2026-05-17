@@ -413,10 +413,10 @@ h1.display {
 }
 .page-head .eyebrow .dot {
   display: inline-block;
-  width: 10px;
-  height: 10px;
-  margin: 0 0.45rem 0 0;
-  vertical-align: 0.25em;
+  width: 12px;
+  height: 12px;
+  margin: 0 0.45em 0 0;
+  vertical-align: 0.28em;
 }
 .page-head h1 {
   font-size: clamp(2.2rem, 4.6vw, 3rem);
