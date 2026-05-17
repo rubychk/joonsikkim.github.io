@@ -1082,12 +1082,7 @@ body.nav-open { overflow: hidden; }
 }
 .pdf-fallback p { margin-bottom: 0.5rem; }
 
-/* Hide overlay when PDF actually renders — we can't detect that reliably across browsers,
-   so the overlay sits BEHIND the iframe by default and only shows where the iframe
-   doesn't paint (Chrome's blocked-PDF icon area). pointer-events:none on the
-   container lets clicks pass through to the iframe; the CTA re-enables it. */
 .pdf-frame { position: relative; }
-.pdf-frame .pdf-viewer { position: relative; z-index: 2; background: transparent; }
 .pdf-overlay { z-index: 1; }
 
 /* ============== Tweaks panel chrome overrides ============== */

@@ -42,13 +42,14 @@
       </a>
     </div>
     <div class="pdf-frame">
-      <iframe class="pdf-viewer" src="cv.pdf" title="Curriculum Vitae PDF"></iframe>
-      <div class="pdf-overlay">
-        <div class="pdf-overlay-icon">PDF</div>
-        <div class="pdf-overlay-title">Curriculum Vitae</div>
-        <div class="pdf-overlay-sub">If the inline preview doesn't render in your browser, open the PDF directly.</div>
-        <a class="pdf-overlay-cta" href="cv.pdf" target="_blank" rel="noopener">Open PDF →</a>
-      </div>
+      <object class="pdf-viewer" data="cv.pdf" type="application/pdf">
+        <div class="pdf-overlay">
+          <div class="pdf-overlay-icon">PDF</div>
+          <div class="pdf-overlay-title">Curriculum Vitae</div>
+          <div class="pdf-overlay-sub">Your browser doesn't support inline PDF viewing. Open the file directly.</div>
+          <a class="pdf-overlay-cta" href="cv.pdf" target="_blank" rel="noopener">Open PDF →</a>
+        </div>
+      </object>
     </div>
 
     <div class="pdf-mobile-card">
